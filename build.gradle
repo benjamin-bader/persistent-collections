@@ -2,10 +2,9 @@ group 'com.bendb.kotlin'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.2.0-beta-31'
+    ext.kotlin_version = '1.1.51'
 
     repositories {
-        maven {     url 'http://dl.bintray.com/kotlin/kotlin-eap-1.2' }
         mavenCentral()
     }
     dependencies {
@@ -16,7 +15,6 @@ buildscript {
 apply plugin: 'kotlin'
 
 repositories {
-    maven {     url 'http://dl.bintray.com/kotlin/kotlin-eap-1.2' }
     mavenCentral()
 }
 
